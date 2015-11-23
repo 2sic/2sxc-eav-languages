@@ -1,4 +1,4 @@
-# 2sxc-eav-languages - i18n for eav & 2sxc
+# Language Packs (i18n) for eav & 2sxc
 This github repository is for managing and sharing the language packs (i18n) for the following project:
 
 * [eav](https://github.com/2sic/eav) - the data storage system and data-api used in 2sxc
