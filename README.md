@@ -13,7 +13,7 @@ To understand i18n (internationalization) in these projects it helps to understa
 
 The browser runs [AngularJS](https://angularjs.org/) and [Angular-Translate](https://angular-translate.github.io/). It's configured to retrieve language files in this pattern:
 
-* `[root-folder]/dist/i18n/[packagename]-[2lettercode].js`
+* `[root-folder]/dist/i18n/[part-name]-[2lettercode].js`
 
 Note that 
 
@@ -22,7 +22,7 @@ Note that
 
 Editing a JSON with a .js extension is not fun in a normal code editor as it will always marke everything as invalid. So when editing/working with the files, we're using JSON as it should be. These are stored here:
 
-* `[root-folder]/src/i18n/[packagename]-[2lettercode].js`
+* `[root-folder]/src/i18n/[part-name]-[2lettercode].js`
 
 This way it's easy to work with in visual studio. 
 
@@ -38,8 +38,8 @@ Whenever we create a new distribution of 2sxc we will download the latest files 
 
 The normal way to contribute is by 
 
-1. forking the project, then 
-2. adding your translations in your fork and 
+1. forking the project 
+2. adding your translations in your fork by copying the /src/i18n/[part-name]-en.json files 
 3. creating a pull-request so your changes get merged into our branch.
 
 ### Translation by becoming a Contributor
