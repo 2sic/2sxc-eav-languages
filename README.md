@@ -34,18 +34,23 @@ Whenever we create a new distribution of 2sxc we will download the latest files 
 
 ## How you can Contribute Translations
 
-### Translation by Forking
+### Preferred: Translation by Forking
 
 The normal way to contribute is by 
 
 1. forking the project 
-2. copy the /src/i18n/[part-name]-en.json files and rename to your language code
+2. copy the `/src/i18n/[part-name]-en.json` files and rename to your language code
 2. adding your translations in these new json files 
 3. creating a pull-request so your changes get merged into our branch.
 
-### Translation by becoming a Contributor
+### Alterantive: Translation by Mail
 
-If you want to be part of the team and take charge of a language, open an issue and tell us about it. I'll then add you to the official team so you can work on this directly. In this case it's much more important that you know what you're doing - so we'll only do this for people who will contribute regularly and understand github.
+Use this method if you don't understand github and forking.
+
+1. download, copy & rename  the `/src/i18n/....-en.json` files
+2. translate
+3. send me a mail containing these (if you don't know how to reach me, open an issue)
+
 
 ## Comparing Changes Across Versions
 
