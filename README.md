@@ -43,7 +43,7 @@ The normal way to contribute is by
 2. adding your translations in these new json files 
 3. creating a pull-request so your changes get merged into our branch.
 
-### Alterantive: Translation by Mail
+### Alternative: Translation by Mail
 
 Use this method if you don't understand github and forking.
 
@@ -51,8 +51,9 @@ Use this method if you don't understand github and forking.
 2. translate
 3. send me a mail containing these (if you don't know how to reach me, open an issue)
 
+## Help for Common Translation Actions
 
-## Comparing Changes Across Versions
+### Comparing Changes Across Versions
 
 Often when the core language pack changes, it would help translators see what changed. This can be done easily using the Github change-tool. It works as follows:
 
@@ -60,3 +61,27 @@ Often when the core language pack changes, it would help translators see what ch
 2. So to compare what changed, you can just use two tags and compare them - like this comparison between [08.00.04 and 08.00.05](https://github.com/2sic/2sxc-eav-languages/compare/2sxc_08.00.04...2sxc_08.00.05)
 
 As you can see in the previous example, the main difference (except for some .sln files) is a single line in the `edit-en.json` which also appears in the .js. You can now just tweak the URL of the compare link to comper any versions you need. 
+
+### Testing your Translation in 2sxc
+
+To test your translation in 2sxc you must simply place them in a 2sxc in the `[2sxc]/dist/i18n/` folder and use the .js extension. Typically you would do this by running the grunt-script in this project but you can also do it manually. 
+
+## Common Problems and Issues
+
+### Language Files are in the /dist/18n but don't get picked up by 2sxc
+
+The first thing you must check is if the browser is actually trying to retrieve them, and if they are being served by the server. 
+For this you should watch the http-trafic on your browser, either using debug-tools in your browser (F12) or by using [fiddler](http://www.telerik.com/fiddler). 
+
+1. Check if the browser is actually making requests to your files when working in 2sxc. 
+If not, then apparently 2sxc doesn't know that it should load these languages. 
+Make sure they are enabled in DNN & 2sxc, and that they are the current language.
+
+2. Check if you see 404-messages when your server responds. If yes, then the files must be in the wrong location.
+
+### Language Files are Delivered but don't work
+
+This usually happens if the JSON file is corrupt. Most common mistakes are:
+
+* bracket open/close missmatch { }
+* you forgot the quotes (") in the key - remember that a JSON always needs quotes, and they must be double quotes - like `"Label": "Save"`
