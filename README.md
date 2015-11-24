@@ -36,11 +36,15 @@ Whenever we create a new distribution of 2sxc we will download the latest files 
 
 ### Translation by Forking
 
-The normal way to contribute is by a) forking the project, then b) adding your translations in your fork and c) creating a pull-request so your changes get merged into our branch.
+The normal way to contribute is by 
+
+1. forking the project, then 
+2. adding your translations in your fork and 
+3. creating a pull-request so your changes get merged into our branch.
 
 ### Translation by becoming a Contributor
 
-If you want to be part of the team and take charge of a language, open an issue and tell us about it. I'll then add you to the official team so you can work on this directly. 
+If you want to be part of the team and take charge of a language, open an issue and tell us about it. I'll then add you to the official team so you can work on this directly. In this case it's much more important that you know what you're doing - so we'll only do this for people who will contribute regularly and understand github.
 
 ## Comparing Changes Across Versions
 
