@@ -3,7 +3,8 @@ module.exports = function (grunt) {
     var srcRoot = "src/i18n/",
         distRoot = "dist/",
         tmpRoot = "tmp/",
-        analysisRoot = "analysis";
+        tmpAnalytics = "tmp/analyt/",
+        analysisRoot = "analysis/";
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
@@ -45,17 +46,42 @@ module.exports = function (grunt) {
         },
 
         /* Experiment to flatten the JSON for reviewing translation completeness */
-        flatten_json: {
-            main: {
-                files: [
-                    {
-                        expand: true,
-                        src: [srcRoot + "*-en.json"],
-                        dest: analysisRoot
-                    }
-                ]
-            }
-        },
+        //flatten_json: {
+        //    main: {
+        //        files: [
+        //            {
+        //                expand: true,
+        //                src: [srcRoot + "*-en.json"],
+        //                dest: analysisRoot
+        //            }
+        //        ]
+        //    }
+        //},
+
+        /* Experimeting with wrapping the flattened jsons with [ and ] */
+        /* note: doesn't work ATM*/
+        //concat: {
+        //    options: {
+        //        banner: "[",
+        //        footer: "]"
+        //    },
+        //    default: {
+        //        src: [analysisRoot + "**/*.json"],
+        //        dest: tmpAnalytics
+        //        //,
+        //        //dest: 
+        //    }
+        //    //default_options: {
+        //    //    files: [
+        //    //      {
+        //    //          prepend: "[",
+        //    //          append: "]",
+        //    //          input: analysisRoot + "**/*.json" //,
+        //    //          //output: 'path/to/output/file'
+        //    //        }
+        //    //     ]
+        //    //}
+        //},
 
         /* Watchers to auto-compile while working on it */
         watch: {
@@ -72,7 +98,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-copy");
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-merge-json");
-    grunt.loadNpmTasks("grunt-flatten-json");
+    // grunt.loadNpmTasks("grunt-flatten-json");
+    // grunt.loadNpmTasks("grunt-contrib-concat");
 
     // Default task(s).
     grunt.registerTask("watch2build", ["watch:i18n"]);
