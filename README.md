@@ -13,7 +13,7 @@ To understand i18n (internationalization) in these projects it helps to understa
 
 The browser runs [AngularJS](https://angularjs.org/) and [Angular-Translate](https://angular-translate.github.io/). It's configured to retrieve language files in this pattern:
 
-* `[root-folder]/dist/i18n/[part-name]-[2lettercode].js`
+* `[root-folder]/dist/i18n/[part-name]-[2lettercode].json`
 
 Note that 
 
