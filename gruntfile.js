@@ -16,12 +16,12 @@ module.exports = function (grunt) {
 
         /* This is an experimental block - will merge the few changes in -en-uk with the master -en */
         /* 2015-11-29 dm - seems to work, but not very generic yet. Will persue more when I have a real use case */
-        "merge-json": {
-            "en-uk": {
-                src: [ srcRoot + "admin-en.json", srcRoot + "admin-en-uk.json" ],
-                dest: tmpRoot + "admin-en-uk.js"
-            }
-        },
+        //"merge-json": {
+        //    "en-uk": {
+        //        src: [ srcRoot + "admin-en.json", srcRoot + "admin-en-uk.json" ],
+        //        dest: tmpRoot + "admin-en-uk.js"
+        //    }
+        //},
         
         copy: {
             enUk: {
@@ -102,7 +102,7 @@ module.exports = function (grunt) {
     // grunt.loadNpmTasks("grunt-contrib-concat");
 
     // Default task(s).
-    grunt.registerTask("watch2build", ["watch:i18n"]);
+    grunt.registerTask("build-auto", ["watch:i18n"]);
     grunt.registerTask("build", [
         "clean:tmp",
         "copy"
