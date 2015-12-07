@@ -62,6 +62,10 @@ Often when the core language pack changes, it would help translators see what ch
 
 As you can see in the previous example, the main difference (except for some .sln files) is a single line in the `edit-en.json` which also appears in the .js. You can now just tweak the URL of the compare link to comper any versions you need. 
 
+### Synchronizing GitHub Forks
+
+1. watch this [quick tutorial to re-sync your master with our updated master](http://www.hpique.com/2013/09/updating-a-fork-directly-from-github/) before you add your changes.
+
 ### Testing your Translation in 2sxc
 
 To test your translation in 2sxc you must simply place them in a 2sxc in the `[2sxc]/dist/i18n/` folder and use the .js extension. Typically you would do this by running the grunt-script in this project but you can also do it manually. 
