@@ -42,124 +42,125 @@
   },
   "WebAPIData": {
     "unused": {
-      "Title": "Get content as if it were data for your template or JavaScript",
-      "Intro": "Use the query designer to create complex queries. They can be used in normal templates (Token/Razor) or in JavaScript. Or you can create your custom JSON-WebAPI which is only for JavaScript - for example to save something, retrieve a file or perform a query too complex for the designer. Read more about <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>coding data pipelines</a> and about <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>using the data in JavaScript with jQuery, AngularJS and more</a>.",
+      "Title": "Prendi contenuti come se si trattasse di dati per il tuo template o JavaScript",
+      "Intro": "Utilizza query designer per creare queries complesse. Possono essere utilizzati in templates (Token/Razor) o JavaScript. 
+        Oppure puoi creare un tuo JSON-WebAPI da utilizzare con JavaScript - per esempio per salvare qualcosa, recuperare un file o eseguire una query complessa. Per maggiori dettagli <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>codice e data pipelines</a> e come <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>utilizzare dati con JavaScript, jQuery, AngularJS e altro</a>.",
       "Visual": {
         "Title": "Visual Data Query",
-        "Intro": "Use the Visual Query Designer (Pipeline-Designer) to create queries to data from 2sxc, SQL, RSS and more.",
+        "Intro": "Utilizza Visual Query Designer (Pipeline-Designer) per creare queries per 2sxc, SQL, RSS e altro.",
         "Button": "Visual Query Designer"
       }
     }
   },
   "WebApi": {
-    "Title": "WebApi for this App",
-    "Intro": "Create a WebApi within minutes by placing the source code in the folder called API and inheriting the correct interface. Try it out by creating one automatically and pressing here. Read more about the <a href='http://2sxc.org/en/Docs-Manuals/Feature/feature/3361' target='_blank'>WebApi</a> or the <a href='http://2sxc.org/en/Docs-Manuals/Feature/feature/3360' target='_blank'>C# data editing API</a>.",
-    "ListTitle": "The following list shows the .cs files in the App-API folder:",
-    "InfoMissingFolder": "(the directory does not exist)",
-    "QuickStart": "For a quick start, we recommend that you install the WebApi demo-app. It contains some WebAPI controllers with various actions and some example views to use these controllers. Download <a href='http://2sxc.org/en/Apps/tag/WebApi' target='_blank'>WebApi demos in the App-Catalog</a> or read more about it in <a href='http://2sxc.org/en/help?tag=webapi' target='_blank'>help</a>",
-    "AddDoesntExist": "there is no automatic add yet - please do it manually in the 'api' folder. Just copy one of an existing project to get started."
+    "Title": "WebApi per questa App",
+    "Intro": "Crea una WebApi in pochi minuti inserendo il tuo condice nella cartella denominata API ed ereditando la corretta interfaccia. Puoi fare una prova creando automanticante e premendo qui. Per maggiori informazioni <a href='http://2sxc.org/en/Docs-Manuals/Feature/feature/3361' target='_blank'>WebApi</a> o <a href='http://2sxc.org/en/Docs-Manuals/Feature/feature/3360' target='_blank'>C# data editing API</a>.",
+    "ListTitle": "La lista seguente mostra i files .cs files nella cartella App-API:",
+    "InfoMissingFolder": "(la cartella non esiste)",
+    "QuickStart": "Per veloce inizio, raccomandiamo di installare la WebApi demo-app. Contiene alcuni controllers WebAPI con varie azioni ed alcuni esempi di views che utilizzano i controllers. Scarica <a href='http://2sxc.org/en/Apps/tag/WebApi' target='_blank'>WebApi demos nel catalogo App-Catalog</a> o per maggiori dettagli <a href='http://2sxc.org/en/help?tag=webapi' target='_blank'>clicca qui (help)</a>",
+    "AddDoesntExist": "Non è presente una add automatica - per favore crea manualmente la cartella 'api'. Copia un progetto demo (lo trovi online) per iniziare."
   },
   "ImportExport": {
-    "Title": "Export or Import <em>parts</em> of this App/Content",
-    "Intro": "Create an xml or zip containing <em>parts</em> of this app, to import into another app or content. Or import such a parts-package.",
-    "FurtherHelp": "For further help visit <a href='http://2sxc.org/en/help?tag=import' target='_blank'>2sxc Help</a>.",
+    "Title": "Esporta o importa <em>parti</em> per questa App/Content",
+    "Intro": "Crea un xml or zip che contiene <em>parti</em> di questa app, per importare in un'altra app o contenuto. O importa un parts-package.",
+    "FurtherHelp": "Per maggiori dettagli visita <a href='http://2sxc.org/en/help?tag=import' target='_blank'>2sxc Help</a>.",
     "Buttons": {
-      "Import": "import",
-      "Export": "export"
+      "Import": "importa",
+      "Export": "esporta"
     },
     "Import": {
-      "Title": "Import a content export (.zip) or a partial export (.xml)",
-      "Explanation": "This import will add Content-Types, Templates and Content-Items to the current Content or App.",
-      "Select": "select file to import",
-      "Choose": "Choose file"
+      "Title": "Importa un centenuto esportato (.zip) o parziale (.xml)",
+      "Explanation": "Questa importazione aggiungerà un Content-Types, Templates e Content-Items al corrente Content o App.",
+      "Select": "seleziona un file da importare",
+      "Choose": "Scegli un file"
     },
     "Export": {
-      "Title": "Partial Export of Content Types, Template Configuration and Content",
-      "Intro": "This is an advanced export feature to export parts of this Content / App. It will create an XML-file for you which you can import into another site or App",
-      "FurtherHelp": "For further help visit <a href='http://2sxc.org/en/help?tag=export' target='_blank'>2sxc Help</a>.",
+      "Title": "Esportazioni parziali o Content Types, Template Configuration e Content",
+      "Intro": "QUesta è una esportazione avanzata per esportare parti di questa Content / App. Verrà creato un XML-file per il quale potrai importare in altro sito o App.",
+      "FurtherHelp": "Per maggiori dettagli visita <a href='http://2sxc.org/en/help?tag=export' target='_blank'>2sxc Help</a>.",
       "Data": {
         "GroupHeading": "Content Type: {{name}} ({{id}}",
         "Templates": "Templates",
         "Items": "Content Items",
-        "SimpleTemplates": "Templates without content type"
+        "SimpleTemplates": "Templates senza content type"
       },
-      "ButtonExport": "Export"
+      "ButtonExport": "Esporta"
     }
   },
   "Portal": {
     "Title": "Virtual Database (VDB)",
-    "VdbLabel": "Virtual Database for this Portal",
-    "Rename": "Note to 2tk - rename is not necessary any more, don't implement!"
+    "VdbLabel": "Virtual Database per questo portale",
+    "Rename": "Note a 2tk - rename is not necessary any more, don't implement!"
   },
   "Language": {
-    "Title": "Languages / Cultures",
-    "Intro": "Manage the enabled / disable languages for this Zone (this portal)",
+    "Title": "Lingue / Cultures",
+    "Intro": "Per abilitare / disabilitare lingue per questa area (questo portale)",
     "Table": {
-      "Code": "Code",
+      "Code": "Codice",
       "Culture": "Culture",
-      "Status": "Status"
+      "Status": "Stato"
     }
   },
   "AppConfig": {
-    "Title": "App Configuration",
-    "Intro": "Configure the App and special App-settings here.",
+    "Title": "Configurazione App",
+    "Intro": "Configura l'App e speciali impostazioni dell'App qui.",
     "Settings": {
-      "Title": "App Settings",
-      "Intro": "Settings are configurations used by the app - like SQL-connection strings, default \"items-to-show\" numbers and things like that. They can also be multi-language, so that a setting (like default RSS-Feed) could be different in each language.",
-      "Edit": "edit app settings",
-      "Config": "configure app settings"
+      "Title": "Impstazioni App",
+      "Intro": "Le impostazioni sono configurazioni utilizzate dall'app - come SQL-connection strings, \"dati di default da mostrare\" numeri e altro. Possono essere muiltilingua, in modo che le impostazioni (come default RSS-Feed) possono essere differenti in ogni linguaggio.",
+      "Edit": "modifica le impostazioni dell'app",
+      "Config": "configura le impostazioni dell'app"
     },
     "Resources": {
-      "Title": "App Resources",
-      "Intro": "Resources are used for labels and things like that in the App. They are usually needed to create multi-lingual views and such, and should not be used for App-Settings.",
-      "Edit": "edit app resources",
-      "Config": "configure app resources"
+      "Title": "Risorse App",
+      "Intro": "Le risorse sono utilizzate per le labels e altri oggetti simili nell'App. Di solito sono necesssari per creare view multilingua, non doveno essere utilizzati per le impstazionui dell'App.",
+      "Edit": "modifica le risorse dell'App",
+      "Config": "configura le risorse dell'App"
     },
     "Definition": {
-      "Title": "App Package Definition",
-      "Intro": "The app-package definition is important when exporting/importing this app.",
-      "Edit": "edit app definition"
+      "Title": "Definizione del pacchetto dell'App",
+      "Intro": "La definizione del pacchettto dell'App è importante per il processo di esportazione/importazione dell'App.",
+      "Edit": "modifica le definizione dell'App"
     },
     "Export": {
-      "Title": "Export this <em>entire</em> App",
-      "Intro": "Create an app-package (zip) which can be installed in another portal",
-      "Button": "export"
+      "Title": "Esporta <em>totalmente</em> questa App",
+      "Intro": "Crea un pacchetto dell'App (zip) che potrà essere installato in un altro portale",
+      "Button": "esporta"
     }
   },
   "AppManagement": {
-    "Title": "Manage Apps in this Zone (Portal)",
+    "Title": "Gestisci l'Apps per questa area (Portale)",
     "Table": {
-      "Name": "Name",
-      "Folder": "Folder",
+      "Name": "Nome",
+      "Folder": "Cartella",
       "Templates": "Templates",
-      "Show": "show this app to users",
-      "Actions": "Actions"
+      "Show": "mostra questa App agli utenti",
+      "Actions": "Azioni"
     },
     "Buttons": {
-      "Browse": "more apps",
-      "Import": "import app",
-      "Create": "create",
-      "Export": "export app"
+      "Browse": "altre Apps",
+      "Import": "importa App",
+      "Create": "crea",
+      "Export": "Esporta App"
     },
     "Prompt": {
-      "NewApp": "Enter App Name (will also be used for folder)",
-      "DeleteApp": "This cannot be undone. To really delete this app, type (or copy/paste) the app-name here: sure you want to delete '{{name}}' ({{id}}) ?",
-      "FailedDelete": "input did not match - will not delete"
+      "NewApp": "Inserisci un nome per l'App (verrà utilizzato anche per la cartella)",
+      "DeleteApp": "Non può essere cancellata. Per cancellare realmente questa App, digita (o copia e incolla) in nome dell'App qui: sicuro che vuoi cancellare l'App '{{name}}' ({{id}}) ?",
+      "FailedDelete": "i dati inserito non sono corretti - non verrà cancellata"
     }
   },
   "ReplaceContent": {
-    "Title": "Replace Content Item",
-    "Intro": "By replacing a content-item you can make a other content appear in the slot of the original content.",
-    "ChooseItem": "Choose item:"
+    "Title": "Sostituisci Content-Item",
+    "Intro": "ostituendo un content-item si può far apparire un altro contenuto nello slot del contenuto originale.",
+    "ChooseItem": "Seleziona un elemento:"
   },
   
   "ManageContentList": {
-    "Title": "Manage content-item lists",
+    "Title": "Gestici la lista dei content-item",
 
-    "HeaderIntro": "You can manage the list header here (if it is defined)",
-    "NoHeaderInThisList": "(this list has no header)",
+    "HeaderIntro": "Puoi gestire la lista degli header qui (se è definita)",
+    "NoHeaderInThisList": "(questa lista non ha header)",
 
-    "Intro": "Sort the items by dragging as you need, then save"
+    "Intro": "Ordinare gli elementi trascinando di cui hai bisogno, quindi salvare."
   },
 
 
@@ -167,19 +168,19 @@
     "Fields": {
       "Hyperlink": {
         "Default": {
-          "Tooltip1": "drop files here to auto-upload",
-          "Tooltip2": "for help see 2sxc.org/help?tag=adam",
-          "Tooltip3": "ADAM - sponsored with love by 2sic.com",
-          "AdamUploadLabel": "quick-upload using ADAM",
-          "MenuAdam": "Upload file with Adam",
-          "MenuPage": "Page Picker",
-          "MenuImage": "Image Manager",
-          "MenuDocs": "Document Manager",
-          "SponsoredLine": "<a href='http://2sxc.org/help?tag=adam' target='_blank' tooltip='ADAM is the Automatic Digital Assets Manager - click to discover more'>Adam</a> is sponsored with ♥ by <a tabindex='-1' href='http://2sic.com/' target='_blank'>2sic.com</a>"
+          "Tooltip1": "trascina i files qui per un carimaneto automatico",
+          "Tooltip2": "per maggiori dettagli 2sxc.org/help?tag=adam",
+          "Tooltip3": "ADAM - sposorizzato con amore da 2sic.com",
+          "AdamUploadLabel": "caricamento veloce utilizzando ADAM",
+          "MenuAdam": "Caricamento file con Adam",
+          "MenuPage": "Pagina Picker",
+          "MenuImage": "Gestione immagini",
+          "MenuDocs": "Gestione documenti",
+          "SponsoredLine": "<a href='http://2sxc.org/help?tag=adam' target='_blank' tooltip='ADAM è Automatic Digital Assets Manager - clicca qui per scoprire di più'>Adam</a> è sposorizzato con ♥ da <a tabindex='-1' href='http://2sic.com/' target='_blank'>2sic.com</a>"
         },
         "FileManager": { },
         "PagePicker": {
-          "Title": "Select a web page"
+          "Title": "Seleziona una pagina web"
         }
       }
     }
