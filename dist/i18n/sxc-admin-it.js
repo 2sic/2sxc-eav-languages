@@ -43,8 +43,7 @@
   "WebAPIData": {
     "unused": {
       "Title": "Prendi contenuti come se si trattasse di dati per il tuo template o JavaScript",
-      "Intro": "Utilizza query designer per creare queries complesse. Possono essere utilizzati in templates (Token/Razor) o JavaScript. 
-        Oppure puoi creare un tuo JSON-WebAPI da utilizzare con JavaScript - per esempio per salvare qualcosa, recuperare un file o eseguire una query complessa. Per maggiori dettagli <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>codice e data pipelines</a> e come <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>utilizzare dati con JavaScript, jQuery, AngularJS e altro</a>.",
+      "Intro": "Utilizza query designer per creare queries complesse. Possono essere utilizzati in templates (Token/Razor) o JavaScript. Oppure puoi creare un tuo JSON-WebAPI da utilizzare con JavaScript - per esempio per salvare qualcosa, recuperare un file o eseguire una query complessa. Per maggiori dettagli <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>codice e data pipelines</a> e come <a href='http://2sxc.org/en/Docs/tag/Data%20and%20Data%20Sources' target='_blank'>utilizzare dati con JavaScript, jQuery, AngularJS e altro</a>.",
       "Visual": {
         "Title": "Visual Data Query",
         "Intro": "Utilizza Visual Query Designer (Pipeline-Designer) per creare queries per 2sxc, SQL, RSS e altro.",
