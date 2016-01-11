@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "2sxc-eav-languages", ".", "
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_4857"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projects\2sxc-eav-languages\"
+		Debug.AspNetCompiler.PhysicalPath = "..\2sxc-eav-languages\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4857\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_4857"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Projects\2sxc-eav-languages\"
+		Release.AspNetCompiler.PhysicalPath = "..\2sxc-eav-languages\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4857\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "4857"
+		SlnRelativePath = "..\2sxc-eav-languages\"
 	EndProjectSection
 EndProject
 Global
