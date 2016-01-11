@@ -47,9 +47,9 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         flatten: false,
-                        cwd: "src/i18n-libs/", 
+                        cwd: "src/i18n-lib/", 
                         src: ["**/*.js"],
-                        dest: "dist/i18n/libs/"
+                        dest: "dist/i18n/lib/"
                     }
                 ]
             }        },
