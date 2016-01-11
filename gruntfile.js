@@ -40,10 +40,19 @@ module.exports = function (grunt) {
                             return dest + src.replace(".json", ".js");
                         }
                     }
-
                 ]
-            }
-        },
+            },
+            libs: {
+                files: [
+                    {
+                        expand: true,
+                        flatten: false,
+                        cwd: "src/i18n-libs/", 
+                        src: ["**/*.js"],
+                        dest: "dist/i18n/libs/"
+                    }
+                ]
+            }        },
 
         /* Experiment to flatten the JSON for reviewing translation completeness */
         //flatten_json: {
