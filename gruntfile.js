@@ -1,10 +1,34 @@
 module.exports = function (grunt) {
     "use strict";
     var srcRoot = "src/i18n/",
+        srcRootEn = "src/en-master/",
         distRoot = "dist/",
         tmpRoot = "tmp/",
         tmpAnalytics = "tmp/analyt/",
-        analysisRoot = "analysis/";
+        analysisRoot = "analysis/",
+        packs = [
+            "admin",    // for the EAV admin UI
+            "edit",     // for the EAV edit UI
+            "inpage",   // for the 2sxc in-page button / dialogs
+            "sxc-admin" // for the 2sxc admin UIs like App, Manage Apps, etc.
+        ],
+        languages = [
+            "en",   // English, core distribution, responsible: 2sic
+            "de",   // German - responsible 2sic
+            "es",   // Spanish - responsible ...
+            "fr",   // French - responsible BSI
+            "it",   // Italian - responsible Opsi
+            "uk"    // Ukranian - responsible ForDnn
+        ];
+
+    var mergeFiles = {};
+
+    packs.forEach(function(pack) {
+        languages.forEach(function (lang) {
+            mergeFiles[distRoot + "i18n/" + pack + "-" + lang + ".js"]
+                = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
+        });
+    });
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
@@ -29,20 +53,20 @@ module.exports = function (grunt) {
 
                 ]
             },
-            i18n: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: "src/i18n/", 
-                        src: ["**/*.json"],
-                        dest: "dist/i18n/", 
-                        rename: function (dest, src) {
-                            return dest + src.replace(".json", ".js");
-                        }
-                    }
-                ]
-            },
-            libs: {
+            //i18n: {
+            //    files: [
+            //        {
+            //            expand: true,
+            //            cwd: "src/i18n/", 
+            //            src: ["**/*.json"],
+            //            dest: "dist/i18n/", 
+            //            rename: function (dest, src) {
+            //                return dest + src.replace(".json", ".js");
+            //            }
+            //        }
+            //    ]
+            //},
+            "import-tinymce-libs": {
                 files: [
                     {
                         expand: true,
@@ -52,8 +76,17 @@ module.exports = function (grunt) {
                         dest: "dist/i18n/lib/"
                     }
                 ]
-            }        },
-
+            }
+        },
+        "merge-json": {
+            "all": {
+                files: mergeFiles
+                //    {
+                //    "tmp/i18n/edit-de.js": [srcRoot + "**/edit-de.json"],
+                //    //"www/de.json": [ "src/**/*-de.json" ]
+                //}
+            }
+        },
         /* Experiment to flatten the JSON for reviewing translation completeness */
         //flatten_json: {
         //    main: {
@@ -94,6 +127,9 @@ module.exports = function (grunt) {
 
         /* Watchers to auto-compile while working on it */
         watch: {
+            options: {
+                
+            },
             i18n: {
                 files: ["gruntfile.js", "src/**"],
                 tasks: ["build"]
@@ -113,7 +149,7 @@ module.exports = function (grunt) {
     // Default task(s).
     grunt.registerTask("build-auto", ["watch:i18n"]);
     grunt.registerTask("build", [
-        "clean:tmp",
-        "copy"
+        //"clean:tmp",
+        "merge-json"
     ]);
 };
