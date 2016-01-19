@@ -1,3 +1,4 @@
+/// <binding ProjectOpened='build-auto' />
 module.exports = function (grunt) {
     "use strict";
     var srcRoot = "src/i18n/",
@@ -128,7 +129,7 @@ module.exports = function (grunt) {
         /* Watchers to auto-compile while working on it */
         watch: {
             options: {
-                
+                atBegin: true
             },
             i18n: {
                 files: ["gruntfile.js", "src/**"],
