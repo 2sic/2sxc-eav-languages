@@ -20,9 +20,9 @@
 		"Deleting": "deleting...",
 		"Ok": "ok",
 		"Error": "error",
-		"CantSaveInvalid": "can't save because not everything is valid - errors on: <ul>{0}</ul>",
 		"CantSaveProcessing": "can't save because something else is still being processed",
-		"FieldErrorList": "<li>{field}:{error}</li>"
+		"CantSaveInvalid": "form not valid, can't save - errors on: <ul>{0}</ul>",
+		"FieldErrorList": "<li>{field} ({error})</li>"
 	},
 	"Errors": {
 		"UnclearError": "Something went wrong - maybe parts worked, maybe not. Sorry :(",
