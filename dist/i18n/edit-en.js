@@ -19,7 +19,10 @@
 		"ExitOk": "do you really want to exit?",
 		"Deleting": "deleting...",
 		"Ok": "ok",
-		"Error": "error"
+		"Error": "error",
+		"CantSaveInvalid": "can't save because not everything is valid - errors on {0}",
+		"CantSaveProcessing": "can't save because something else is still being processed",
+		"FieldErrorList": "{field}:{error}"
 	},
 	"Errors": {
 		"UnclearError": "Something went wrong - maybe parts worked, maybe not. Sorry :(",
