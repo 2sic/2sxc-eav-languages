@@ -38,7 +38,7 @@
 	},
 	"FieldType": {
 		"Entity": {
-			"Choose": "choose item to add",
+			"Choose": "add existing item",
 			"New": "create new",
 			"EntityNotFound": "(item not found)",
 			"DragMove": "drag to re-order the list",
