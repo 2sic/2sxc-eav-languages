@@ -28,6 +28,12 @@
 		"MoreActions": "more actions",
 		"ConfirmRemove": "This will remove this content-item from this list, but not delete it (so you can add it again later). \nSee 2sxc.org/help for more. \n\nOk to remove?"
 	},
+	"QuickInsertMenu": {
+		"AddBlockContent": "add content block",
+		"AddBlockApp": "add app block",
+		"AddModuleContent": "add content module",
+		"AddModuleApp": "add app module"
+	},
 	"EditFormTitle": {
 		"Content": "Content",
 		"Presentation": "Presentation Settings",
