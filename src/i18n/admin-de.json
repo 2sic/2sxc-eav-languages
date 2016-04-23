@@ -21,7 +21,7 @@
         },
         "Questions": {
             "Delete": "Wirklich löschen? {{target}}",
-            "DeleteEntity": "Löschen '{{title}}' ({{id}}?",
+            "DeleteEntity": "'{{title}}' ({{id}}) löschen?",
             "SystemInput": "Das ist für fortgeschrittene Benutzer. Benutze es nur, wenn du weisst, was du machst. \n\n Befehl eingeben:",
             "ForceDelete": "möchtest du '{{title}}' ({{id}}) zwangs-löschen?"
         },
