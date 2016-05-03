@@ -1,4 +1,4 @@
-/// <binding ProjectOpened='build-auto' />
+/// <binding />
 module.exports = function (grunt) {
     "use strict";
     var srcRoot = "src/i18n/",
@@ -19,17 +19,34 @@ module.exports = function (grunt) {
             "es",   // Spanish - responsible ...
             "fr",   // French - responsible BSI
             "it",   // Italian - responsible Opsi
-            "uk"    // Ukranian - responsible ForDnn
+            "uk",   // Ukranian - responsible ForDnn
+        ],
+        basicPacks = [
+            "edit",     // for the EAV edit UI
+            "inpage",   // for the 2sxc in-page button / dialogs
+        ],
+        basicLanguages = [
+            "nl",   // Nederlands / Dutch - responsible Tycho de Waard - only partially translated
         ];
 
     var mergeFiles = {};
 
+    // prepare all full packs
     packs.forEach(function(pack) {
         languages.forEach(function (lang) {
             mergeFiles[distRoot + "i18n/" + pack + "-" + lang + ".js"]
                 = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
         });
     });
+
+    // prepare all minimal packs
+    basicPacks.forEach(function (pack) {
+        basicLanguages.forEach(function (lang) {
+            mergeFiles[distRoot + "i18n/" + pack + "-" + lang + ".js"]
+                = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
+        });
+    });
+
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),

@@ -1,0 +1,21 @@
+﻿{
+  "Extension.TinyMce": {
+    "Link.AdamFile": "Link naar ADAM-bestand (aanbevolen)",
+    "Link.AdamFile.Tooltip": "Link gebruikmakend van ADAM - sleep bestanden middels de Automatic Digital Assets Manager",
+    "Image.AdamImage": "Voeg ADAM afbeelding in (aanbevolen)",
+    "Image.AdamImage.Tooltip": "Afbeelding van ADAM- sleep bestanden middels de  Automatic Digital Assets Manager",
+    "Link.DnnFile": "Link DNN-file",
+    "Link.DnnFile.Tooltip": "Link a DNN-file (alle files, langzaam)",
+    "Image.DnnImage": "Insert DNN image",
+    "Image.DnnImage.Tooltip": "Afbeelding van DNN bestandsopslag (alle files, langzaam)",
+    "Link.Page": "Link naar een andere pagina",
+    "Link.Page.Tooltip": "Link naar een pagina van deze site",
+    "Link.Anchor.Tooltip": "Maak een ankerlink (link ziet er uit als .../page#anchorname)",
+    "SwitchMode.Pro": "Switch naar geavanceerde modus",
+    "SwitchMode.Standard": "Switch standaard modus",
+    "H1": "H1",
+    "H2": "H2",
+    "H3": "H3",
+    "Remove": "Verwijder"
+  }
+}
