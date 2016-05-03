@@ -20,6 +20,8 @@ module.exports = function (grunt) {
             "fr",   // French - responsible BSI
             "it",   // Italian - responsible Opsi
             "uk",   // Ukranian - responsible ForDnn
+            "nl",   // Nederlands / Dutch - responsible Tycho de Waard - only partially translated
+
         ],
         basicPacks = [
             "edit",     // for the EAV edit UI
