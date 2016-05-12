@@ -1,4 +1,4 @@
-/// <binding />
+/// <binding ProjectOpened='build-auto' />
 module.exports = function (grunt) {
     "use strict";
     var srcRoot = "src/i18n/",
