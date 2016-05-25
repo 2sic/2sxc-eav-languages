@@ -1,0 +1,21 @@
+﻿{
+  "Extension.TinyMce": {
+    "Link.AdamFile": "Зв'язати ADAM-файл (рекомендовано)",
+    "Link.AdamFile.Tooltip": "Зв'язати за допомогою ADAM - просто розмістіть файли за допомогою Automatic Digital Assets Manager",
+    "Image.AdamImage": "Вставте ADAM зображення (рекомендовано)",
+    "Image.AdamImage.Tooltip": "Зображення з ADAM - просто розмістіть файли за допомогою Automatic Digital Assets Manager",
+    "Link.DnnFile": "Зв'язати з DNN-файлом",
+    "Link.DnnFile.Tooltip": "Зв'язати з DNN-файлом (усы файли, повільно)",
+    "Image.DnnImage": "Вставте DNN зображення",
+    "Image.DnnImage.Tooltip": "Зображення з сховища файлів DNN (усі файли, повільно)",
+    "Link.Page": "Посилання на іншу сторінку",
+    "Link.Page.Tooltip": "Посилання на сторінку з поточного сайту",
+    "Link.Anchor.Tooltip": "Якір для посилання використовується за допомогою .../page#anchorname",
+    "SwitchMode.Pro": "Переключити в розширений режим",
+    "SwitchMode.Standard": "Переключити в стандартний режим",
+    "H1": "H1",
+    "H2": "H2",
+    "H3": "H3",
+    "Remove": "Видалити"
+  }
+}
