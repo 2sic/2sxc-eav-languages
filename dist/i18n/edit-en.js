@@ -9,6 +9,11 @@
 		"Published": "published",
 		"Unpublished": "unpublished / draft"
 	},
+	"SaveMode": {
+		"show": "show this item",
+		"hide": "hide this item",
+		"draft": "hide changes as draft"
+	},
 	"Message": {
 		"Saving": "saving...",
 		"Saved": "saved",
