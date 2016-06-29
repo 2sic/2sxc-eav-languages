@@ -12,7 +12,7 @@
 	"SaveMode": {
 		"show": "show this item",
 		"hide": "hide this item",
-		"draft": "hide changes as draft"
+		"branch": "hide changes as draft"
 	},
 	"Message": {
 		"Saving": "saving...",
