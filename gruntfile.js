@@ -11,7 +11,8 @@ module.exports = function (grunt) {
             "admin",    // for the EAV admin UI
             "edit",     // for the EAV edit UI
             "inpage",   // for the 2sxc in-page button / dialogs
-            "sxc-admin" // for the 2sxc admin UIs like App, Manage Apps, etc.
+            "sxc-admin",// for the 2sxc admin UIs like App, Manage Apps, etc.
+            "source-editor-snippets",
         ],
         languages = [
             "en",   // English, core distribution, responsible: 2sic
