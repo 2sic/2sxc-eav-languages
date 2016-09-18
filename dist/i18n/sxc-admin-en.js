@@ -248,7 +248,7 @@
 			},
 			"Commands": {
 				"Export": "Export",
-				"ExportForVersionControl": "Save data for version control"
+				"ExportForVersionControl": "Data only for Github versioning"
 			}
 		}
 	}
