@@ -25,5 +25,8 @@
     "analysis",
     "tmp",
     ".*/*"
-  ]
+  ],
+  "dependencies": {
+    "angular-i18n": "^1.5.8"
+  }
 }
