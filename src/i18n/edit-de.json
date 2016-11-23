@@ -70,5 +70,10 @@
   "Dialog1": {
   },
   "dialog2": {
+  },
+  "CalendarPopup": {
+	  "ClearButton": "Löschen",
+	  "CloseButton": "Fertig",
+	  "CurrentButton": "Heute"
   }
 }
