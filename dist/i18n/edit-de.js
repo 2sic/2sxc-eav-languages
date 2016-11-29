@@ -58,7 +58,8 @@
 		"GoogleTranslate": "Online Übersetzung (Google)",
 		"Copy": "Kopieren von",
 		"Use": "Verwenden von",
-		"Share": "Teilen mit"
+		"Share": "Teilen mit",
+		"AllFields": "alle Felder"
 	},
 	"LangWrapper": {
 		"CreateValueInDefFirst": "Bitte das Feld '{{fieldname}}' zuerst in der Standardsprache befüllen vor dem Übersetzen."
