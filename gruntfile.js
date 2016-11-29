@@ -41,7 +41,7 @@ module.exports = function (grunt) {
                 = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
         });
     });
-
+	
     // prepare all minimal packs
     basicPacks.forEach(function (pack) {
         basicLanguages.forEach(function (lang) {
@@ -49,6 +49,13 @@ module.exports = function (grunt) {
                 = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
         });
     });
+	
+	// add angular-i18n files
+	var angulari18nFiles = [];
+	languages.forEach(lang => {
+		angulari18nFiles.push("angular-locale_" + lang + ".js");
+	});
+	
 
 
     grunt.initConfig({
@@ -97,7 +104,18 @@ module.exports = function (grunt) {
                         dest: "dist/i18n/lib/"
                     }
                 ]
-            }
+            },
+			"import-angulari18n-libs": {
+				files: [
+					{
+						expand: true,
+						flatten: false,
+						cwd: "bower_components/angular-i18n/",
+						src: angulari18nFiles,
+						dest: distRoot + "i18n/lib/angular-i18n/"
+					}
+				]
+			}
         },
         "merge-json": {
             "all": {
@@ -173,4 +191,5 @@ module.exports = function (grunt) {
         //"clean:tmp",
         "merge-json"
     ]);
+	grunt.registerTask("import-angulari18n-libs", ["copy:import-angulari18n-libs"]);
 };

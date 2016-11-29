@@ -66,6 +66,11 @@
 	},
 	"Dialog1": {},
 	"dialog2": {},
+	"CalendarPopup": {
+		"ClearButton": "Löschen",
+		"CloseButton": "Fertig",
+		"CurrentButton": "Heute"
+	},
 	"Extension.TinyMce": {
 		"Link.AdamFile": "ADAM-Datei (empfohlen)",
 		"Link.AdamFile.Tooltip": "ADAM-Dateien verlinken - Dateien einfach hierhin ziehen - verwendet den Automatic Digital Assets Manager",
