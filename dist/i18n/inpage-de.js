@@ -21,7 +21,7 @@
 		"Delete": "Eintrag löschen"
 	},
 	"ContentItemsBETA": {
-		"ConfirmDelete": "Dies löscht den Eintrag {0} \"{1}\". \n\nDas kann nicht rückgängig gemacht werden. Bist du sicher?",
+		"ConfirmDelete": "Dies löscht den Eintrag {{id}} \"{{title}}\". \n\nDas kann nicht rückgängig gemacht werden. Bist du sicher?",
 		"DeleteErrPermission": "Kann nicht löschen, es fehlen die Freigaben.",
 		"DeleteErrInUse": "Kann nicht löschen, der Eintrag ist vermutlich anderswo in Gebrauch.",
 		"DeleteErrCheckConsole": "\n\nBitte prüf die JavaScript-Konsole für weitere Details."

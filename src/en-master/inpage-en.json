@@ -29,7 +29,7 @@
     "Delete": "delete item"
   },
   "ContentItemsBETA": {
-    "ConfirmDelete": "This will really delete item {0} \"{1}\". \n\nThis cannot be undone. Are you sure?",
+    "ConfirmDelete": "This will really delete item {{id}} \"{{title}}\". \n\nThis cannot be undone. Are you sure?",
     "DeleteErrPermission": "Can't delete - permissions missing.",
     "DeleteErrInUse": "Can't delete - item is probably in use elsewhere.",
     "DeleteErrCheckConsole": "\n\nPlease check javascript console for more information."
