@@ -28,11 +28,11 @@
 		"ConfirmRemove": "This will remove this content-item from this list, but not delete it (so you can add it again later). \nSee 2sxc.org/help for more. \n\nOk to remove?",
 		"Delete": "delete item"
 	},
-	"ContentItemsBETA": {
-		"ConfirmDelete": "This will really delete item {{id}} \"{{title}}\". \n\nThis cannot be undone. Are you sure?",
-		"DeleteErrPermission": "Can't delete - permissions missing.",
-		"DeleteErrInUse": "Can't delete - item is probably in use elsewhere.",
-		"DeleteErrCheckConsole": "\n\nPlease check javascript console for more information."
+	"Delete": {
+		"Confirm": "This will really delete item {{id}} \"{{title}}\". \n\nThis cannot be undone. Are you sure?",
+		"ErrPermission": "Can't delete - permissions missing.",
+		"ErrInUse": "Can't delete - item is probably in use elsewhere.",
+		"ErrCheckConsole": "\n\nPlease check javascript console for more information."
 	},
 	"EditFormTitle": {
 		"Content": "Content",
