@@ -29,7 +29,7 @@
 		"Delete": "delete item"
 	},
 	"Delete": {
-		"Confirm": "This will really delete item {{id}} \"{{title}}\". \n\nThis cannot be undone. Are you sure?",
+		"Confirm": "This will really delete item {id} \"{title}\". \n\nThis cannot be undone. Are you sure?",
 		"ErrPermission": "Can't delete - permissions missing.",
 		"ErrInUse": "Can't delete - item is probably in use elsewhere.",
 		"ErrCheckConsole": "\n\nPlease check javascript console for more information."
