@@ -17,7 +17,14 @@
 		"ContentType": "Felder des Inhaltstypen",
 		"Zone": "apps verwalten",
 		"MoreActions": "weitere Aktionen",
-		"ConfirmRemove": "Dieses Inhalts-Element von der Liste wird entfernt, aber nicht gelöscht. So kann man es später wieder hinzufügen. \nSiehe auch 2sxc.org/help. \n\nEntfernen ok?"
+		"ConfirmRemove": "Dieses Inhalts-Element von der Liste wird entfernt, aber nicht gelöscht. So kann man es später wieder hinzufügen. \nSiehe auch 2sxc.org/help. \n\nEntfernen ok?",
+		"Delete": "Eintrag löschen"
+	},
+	"ContentItemsBETA": {
+		"ConfirmDelete": "Dies löscht den Eintrag {0} \"{1}\". \n\nDas kann nicht rückgängig gemacht werden. Bist du sicher?",
+		"DeleteErrPermission": "Kann nicht löschen, es fehlen die Freigaben.",
+		"DeleteErrInUse": "Kann nicht löschen, der Eintrag ist vermutlich anderswo in Gebrauch.",
+		"DeleteErrCheckConsole": "\n\nBitte prüf die JavaScript-Konsole für weitere Details."
 	},
 	"EditFormTitle": {
 		"Content": "Inhalt",
