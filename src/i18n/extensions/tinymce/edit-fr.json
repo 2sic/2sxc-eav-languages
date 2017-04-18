@@ -1,0 +1,22 @@
+﻿{
+  "Extension.TinyMce": {
+    "Link.AdamFile": "Lien via ADAM-fichier (recommandé)",
+    "Link.AdamFile.Tooltip": "Lien utilisant ADAM - déposez simplement les fichiers à l'aide du gestionnaire automatique des actifs numériques",
+    "Image.AdamImage": "Insérer l'image via ADAM (recommandé)",
+    "Image.AdamImage.Tooltip": "Image via ADAM : déposez simplement des fichiers à l'aide du gestionnaire automatique d'actifs numériques",
+    "Link.DnnFile": "Lien via DNN-fichiers",
+    "Link.DnnFile.Tooltip": "Lier un fichier via DNN (tous les fichiers, lent)",
+    "Image.DnnImage": "Insérer une image via DNN (lent)",
+    "Image.DnnImage.Tooltip": "Image via le gestionnaire de fichiers DNN (tous les fichiers, lent)",
+    "Link.Page": "Lien vers une autre page",
+    "Link.Page.Tooltip": "Lien vers une page du site actuel",
+    "Link.Anchor.Tooltip": "Ancre pour lier à l'utilisation .../page#nomdelancre",
+    "SwitchMode.Pro": "Passer en mode avancé",
+    "SwitchMode.Standard": "Passer en mode standard",
+    "H1": "H1",
+    "H2": "H2",
+    "H3": "H3",
+    "Remove": "Supprimer",
+    "ContentBlock.Add": "Ajouter une application ou un content-type"
+  }
+}

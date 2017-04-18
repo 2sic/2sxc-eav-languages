@@ -115,11 +115,8 @@
         "Description": "Description",
         "Actions": ""
       }
-
     },
-    "Designer": {
-
-    },
+    "Designer": {},
     "Stats": {
       "Title": "Résultats de requête",
       "Intro": "Le résultat complet a été loggué dans la console du browser. Plus d'infos de dégoguage plus bas...",
@@ -225,12 +222,9 @@
       },
       "Messages": {
         "BackupContentBefore": "Faites un backup avant !",
-
         "WaitingForResponse": "Veuillez patienter...",
-
         "ImportSucceeded": "Import terminée.",
         "ImportFailed": "Echec de l'import.",
-
         "ImportCanTakeSomeTime": "Note: l'import valide beaucoup de données et peut prendre plusieurs minutes."
       },
       "Evaluation": {
