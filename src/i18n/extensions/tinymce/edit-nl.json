@@ -1,21 +1,22 @@
-﻿{
+{
   "Extension.TinyMce": {
-    "Link.AdamFile": "Link naar ADAM-bestand (aanbevolen)",
-    "Link.AdamFile.Tooltip": "Link gebruikmakend van ADAM - sleep bestanden middels de Automatic Digital Assets Manager",
-    "Image.AdamImage": "Voeg ADAM afbeelding in (aanbevolen)",
-    "Image.AdamImage.Tooltip": "Afbeelding van ADAM- sleep bestanden middels de  Automatic Digital Assets Manager",
-    "Link.DnnFile": "Link DNN-file",
-    "Link.DnnFile.Tooltip": "Link a DNN-file (alle files, langzaam)",
-    "Image.DnnImage": "Insert DNN image",
-    "Image.DnnImage.Tooltip": "Afbeelding van DNN bestandsopslag (alle files, langzaam)",
+    "Link.AdamFile": "ADAM-bestand linken (aanbevolen)",
+    "Link.AdamFile.Tooltip": "Link via ADAM - drop simpelweg bestanden met de Automatische Digitale Aanhangsel Manager (ADAM)",
+    "Image.AdamImage": "ADAM-afbeelding toevoegen (aanbevolen)",
+    "Image.AdamImage.Tooltip": "Afbeelding via ADAM- drop simpelweg afbeeldingen met de Automatische Digitale Aanhangsel Manager (ADAM)",
+    "Link.DnnFile": "Link DNN-bestand",
+    "Link.DnnFile.Tooltip": "Link een DNN-bestand (alle bestanden, langzaam)",
+    "Image.DnnImage": "DNN afbeelding toevoegen",
+    "Image.DnnImage.Tooltip": "Afbeelding van DNN bestandsopslag alle bestanden, langzaam)",
     "Link.Page": "Link naar een andere pagina",
-    "Link.Page.Tooltip": "Link naar een pagina van deze site",
-    "Link.Anchor.Tooltip": "Maak een ankerlink (link ziet er uit als .../page#anchorname)",
-    "SwitchMode.Pro": "Switch naar geavanceerde modus",
-    "SwitchMode.Standard": "Switch standaard modus",
+    "Link.Page.Tooltip": "Link een pagina van de huidige site",
+    "Link.Anchor.Tooltip": "Anker naar link gebruik .../pigina#ankernaam",
+    "SwitchMode.Pro": "Switch naar geavanceerde mode",
+    "SwitchMode.Standard": "Switch naar standaard mode",
     "H1": "H1",
     "H2": "H2",
     "H3": "H3",
-    "Remove": "Verwijder"
+    "Remove": "Verwijderen",
+    "ContentBlock.Add": "app of inhoudsblok toevoegen"
   }
 }
