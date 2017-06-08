@@ -185,19 +185,19 @@
   },
 
     "TemplatePicker": {
-        "AppPickerDefault": "<App auswählen>",
-      "ContentTypePickerDefault": "<Typ des Inhalts auswählen>",
-    "LayoutElement": "Design-Element",
+      "AppPickerDefault": "App auswählen",
+      "ContentTypePickerDefault": "Inhaltstyp auswählen",
+      "LayoutElement": "Design-Element",
 
-        "Save": "Speichern",
-        "Cancel": "Abbrechen",
+      "Save": "Speichern",
+      "Cancel": "Abbrechen",
       "Close": "Schliessen",
 
-          "Install": "weitere Apps installieren...",
-    "Catalog": "App Katalog durchsuchen",
+      "Install": "Apps installieren",
+      "Catalog": "App Katalog durchsuchen",
 
-    "App": "App Konfigurieren",
-    "Zone": "Apps verwalten"
+      "App": "App Konfigurieren",
+      "Zone": "Apps verwalten"
 
     }
 }
