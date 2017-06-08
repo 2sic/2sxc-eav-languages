@@ -164,6 +164,7 @@
 		"AppPickerDefault": "Choose App",
 		"ContentTypePickerDefault": "Choose Content Type",
 		"LayoutElement": "Layout element",
+		"ChangeView": "Change view",
 		"Save": "Save and close",
 		"Cancel": "Cancel change",
 		"Close": "Close",

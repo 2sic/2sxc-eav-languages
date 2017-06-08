@@ -183,6 +183,7 @@
 		"AppPickerDefault": "App auswählen",
 		"ContentTypePickerDefault": "Inhaltstyp auswählen",
 		"LayoutElement": "Design-Element",
+		"ChangeView": "Darstellung anpassen",
 		"Save": "Speichern",
 		"Cancel": "Abbrechen",
 		"Close": "Schliessen",
