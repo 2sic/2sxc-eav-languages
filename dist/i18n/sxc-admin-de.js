@@ -191,5 +191,13 @@
 		"Catalog": "App Katalog durchsuchen",
 		"App": "App Konfigurieren",
 		"Zone": "Apps verwalten"
+	},
+	"ItemHistory": {
+		"Title": "Versionen dieses Elementes",
+		"Version": "Version {{version}}",
+		"Buttons": {
+			"RestoreLive": "Wiederherstellen",
+			"RestoreDraft": "Als Entwurf wiederherstellen"
+		}
 	}
 }

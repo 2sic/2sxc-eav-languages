@@ -160,19 +160,6 @@
 			"Intro": "click on any snippet to insert"
 		}
 	},
-	"TemplatePicker": {
-		"AppPickerDefault": "Choose App",
-		"ContentTypePickerDefault": "Choose Content Type",
-		"LayoutElement": "Layout element",
-		"ChangeView": "Change view",
-		"Save": "Save and close",
-		"Cancel": "Cancel change",
-		"Close": "Close",
-		"Install": "install apps",
-		"Catalog": "browse app catalog",
-		"App": "configure app",
-		"Zone": "manage all apps"
-	},
 	"ImportExport": {
 		"Title": "Export or Import <em>parts</em> of this App",
 		"Intro": "Create an xml containing parts of the app, e.g. content and templates.<br/>Import parts from such an xml into this app.",
@@ -252,6 +239,27 @@
 				"Export": "Export App",
 				"ExportForVersionControl": "Export Data for Github versioning"
 			}
+		}
+	},
+	"TemplatePicker": {
+		"AppPickerDefault": "Choose App",
+		"ContentTypePickerDefault": "Choose Content Type",
+		"LayoutElement": "Layout element",
+		"ChangeView": "Change view",
+		"Save": "Save and close",
+		"Cancel": "Cancel change",
+		"Close": "Close",
+		"Install": "install apps",
+		"Catalog": "browse app catalog",
+		"App": "configure app",
+		"Zone": "manage all apps"
+	},
+	"ItemHistory": {
+		"Title": "Versions of this item",
+		"Version": "Version {{version}}",
+		"Buttons": {
+			"RestoreLive": "Restore",
+			"RestoreDraft": "Restore as draft"
 		}
 	}
 }
