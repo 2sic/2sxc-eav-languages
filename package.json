@@ -1,6 +1,6 @@
 {
-  "name": "ToSic_ToSxc_Eav_Languages",
-  "version": "8.00.04",
+  "name": "tosic_tosxc_eav_languages",
+  "version": "9.7.0",
   "description": "Language packs for the 2sic/eav and 2sxc/2sxc",
   "main": "",
   "scripts": {

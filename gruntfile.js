@@ -7,6 +7,7 @@ module.exports = function (grunt) {
         tmpRoot = "tmp/",
         tmpAnalytics = "tmp/analyt/",
         analysisRoot = "analysis/",
+        typePath = "content-types/",
         packs = [
             "admin",    // for the EAV admin UI
             "edit",     // for the EAV edit UI
@@ -22,7 +23,10 @@ module.exports = function (grunt) {
             "it",   // Italian - responsible Opsi
             "uk",   // Ukranian - responsible ForDnn
             "nl",   // Nederlands / Dutch - responsible Tycho de Waard - only partially translated
-
+        ],
+        typeLanguages = [
+            "en",
+            "de"
         ],
         basicPacks = [
             "edit",     // for the EAV edit UI
@@ -37,8 +41,10 @@ module.exports = function (grunt) {
     // prepare all full packs
     packs.forEach(function(pack) {
         languages.forEach(function (lang) {
-            mergeFiles[distRoot + "i18n/" + pack + "-" + lang + ".js"]
-                = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
+            var key = distRoot + "i18n/" + pack + "-" + lang + ".js",
+                val = [((lang === "en") ? srcRootEn : srcRoot) + "**/" + pack + "-" + lang + ".json"];
+            mergeFiles[key] = val;
+            grunt.verbose.writeln("pack [" + key + "]=" + val);
         });
     });
 	
@@ -55,8 +61,18 @@ module.exports = function (grunt) {
 	languages.forEach(lang => {
 		angulari18nFiles.push("angular-locale_" + lang + ".js");
 	});
-	
 
+    // try to build list of content-type files
+    var ctFiles = grunt.file.expand(srcRootEn + typePath + "*.json");
+    ctFiles.forEach(function (typeFile) {
+        var file = typeFile.substring(typeFile.lastIndexOf("/") + 1).replace("-en.json", "");
+        typeLanguages.forEach(function (lang) {
+            var key = distRoot + "i18n/" + typePath + file + "-" + lang + ".js",
+                val = [((lang === "en") ? srcRootEn : srcRoot) + typePath + "**/" + file + "-" + lang + ".json"];
+            mergeFiles[key] = val;
+            grunt.verbose.writeln("type [" + key + "]:" + val);
+        });
+    });
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
