@@ -1,5 +1,5 @@
 {
-	"ContentTypes.|config tosic.eav.datasources.sqldatasource": {
+	"ContentTypes.config tosic.eav.datasources.sqldatasource": {
 		"Metadata": {
 			"Label": "SQL DataSource",
 			"Description": "todo",
