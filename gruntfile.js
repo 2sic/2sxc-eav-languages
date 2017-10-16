@@ -65,7 +65,7 @@ module.exports = function (grunt) {
     // try to build list of content-type files
     var ctFiles = grunt.file.expand(srcRootEn + typePath + "*.json");
     ctFiles.forEach(function (typeFile) {
-        var file = typeFile.substring(typeFile.lastIndexOf("/") + 1).replace("-en.json", "");
+        var file = typeFile.substring(typeFile.lastIndexOf("/") + 1).replace("-en.json", "").toLowerCase();
         typeLanguages.forEach(function (lang) {
             var key = distRoot + "i18n/" + typePath + file + "-" + lang + ".js",
                 val = [((lang === "en") ? srcRootEn : srcRoot) + typePath + "**/" + file + "-" + lang + ".json"];
