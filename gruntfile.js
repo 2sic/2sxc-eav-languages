@@ -24,10 +24,10 @@ module.exports = function (grunt) {
             "uk",   // Ukranian - responsible ForDnn
             "nl",   // Nederlands / Dutch - responsible Tycho de Waard - only partially translated
         ],
-        typeLanguages = [
-            "en",
-            "de"
-        ],
+        //typeLanguages = [
+        //    "en",
+        //    "de"
+        //],
         basicPacks = [
             "edit",     // for the EAV edit UI
             "inpage",   // for the 2sxc in-page button / dialogs
@@ -63,16 +63,16 @@ module.exports = function (grunt) {
 	});
 
     // try to build list of content-type files
-    var ctFiles = grunt.file.expand(srcRootEn + typePath + "*.json");
-    ctFiles.forEach(function (typeFile) {
-        var file = typeFile.substring(typeFile.lastIndexOf("/") + 1).replace("-en.json", "").toLowerCase();
-        typeLanguages.forEach(function (lang) {
-            var key = distRoot + "i18n/" + typePath + file + "-" + lang + ".js",
-                val = [((lang === "en") ? srcRootEn : srcRoot) + typePath + "**/" + file + "-" + lang + ".json"];
-            mergeFiles[key] = val;
-            grunt.verbose.writeln("type [" + key + "]:" + val);
-        });
-    });
+    //var ctFiles = grunt.file.expand(srcRootEn + typePath + "*.json");
+    //ctFiles.forEach(function (typeFile) {
+    //    var file = typeFile.substring(typeFile.lastIndexOf("/") + 1).replace("-en.json", "").toLowerCase();
+    //    typeLanguages.forEach(function (lang) {
+    //        var key = distRoot + "i18n/" + typePath + file + "-" + lang + ".js",
+    //            val = [((lang === "en") ? srcRootEn : srcRoot) + typePath + "**/" + file + "-" + lang + ".json"];
+    //        mergeFiles[key] = val;
+    //        grunt.verbose.writeln("type [" + key + "]:" + val);
+    //    });
+    //});
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
