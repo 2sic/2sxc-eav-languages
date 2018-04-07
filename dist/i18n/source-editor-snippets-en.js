@@ -158,7 +158,7 @@
 			"Headers.Title": "Page headers / titles"
 		},
 		"Koi": {
-			"Title": "Koi (Multi-CSS Framework Harmony",
+			"Title": "Koi - Multi-CSS Framework Views",
 			"Using.Title": "Using statement",
 			"CssFramework.Title": "Detect CSS Framework",
 			"IsUnknown.Title": "Handle Unknown Frameworks",
