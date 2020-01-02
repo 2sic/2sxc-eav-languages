@@ -6,7 +6,16 @@ This github repository is for managing and sharing the language packs (i18n) for
 
 Note that we chose to create an own repository because it's easier to handle with many collaborators. So the core projects only contain the newest EN language pack, which is copied to here every few changes. 
 
+## How to Edit & Build
+
+This is fairly old code and uses both grunt and gulp. 
+
+* change the files in the src-folder
+* use `grunt build` to build the packages into dist - if grunt isn't working you probably need to run `npm install -g grunt-cli` first
+* use gulp to distribute to the local 2sxc dev environment
+
 ## Background
+
 ### Angular-Translate and the Dev-Process
 
 To understand i18n (internationalization) in these projects it helps to understand how the i18n implementation work. Here's the stack - beginning from the browser:

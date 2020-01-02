@@ -1,4 +1,5 @@
 node_modules/
+xxx-node_modules/
 **.suo
 bower_components/
 .vs/

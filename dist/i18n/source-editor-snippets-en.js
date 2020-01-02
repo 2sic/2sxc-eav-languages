@@ -172,6 +172,12 @@
 			"If.Title": "If Statements",
 			"Include.Title": "Include CSS Files"
 		},
+		"RazorBlade": {
+			"Title": "Razor Blade",
+			"Help": "Read more on <a href='https://razor-blade.net/' target='_blank'>RazorBlade</a>",
+			"Basics.Title": "Basics",
+			"Basics.Help": "Basics like using statements"
+		},
 		"Linq": {
 			"Title": "LINQ - Querying Lists of Data",
 			"Using.Title": "Using statements for LINQ",
