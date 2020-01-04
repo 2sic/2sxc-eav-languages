@@ -173,10 +173,18 @@
 			"Include.Title": "Include CSS Files"
 		},
 		"RazorBlade": {
-			"Title": "Razor Blade",
+			"Title": "RazorBlade 3",
 			"Help": "Read more on <a href='https://razor-blade.net/' target='_blank'>RazorBlade</a>",
 			"Basics.Title": "Basics",
-			"Basics.Help": "Basics like using statements"
+			"Basics.Help": "Basics like using statements",
+			"Text.Title": "Text / String handling",
+			"Text.Help": "Various text operations",
+			"HtmlPage.Title": "HtmlPage",
+			"HtmlPage.Help": "Add icons, headers, etc.",
+			"Tags.Title": "Tags - HTML manipulations",
+			"Tags.Help": "Modify / manipulate html",
+			"Tag.Title": "Tag - generate HTML",
+			"Tag.Help": "Generate safe HTML"
 		},
 		"Linq": {
 			"Title": "LINQ - Querying Lists of Data",
