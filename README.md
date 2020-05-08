@@ -12,7 +12,7 @@ This is fairly old code and uses both grunt and gulp.
 
 * change the files in the src-folder
 * use `grunt build` to build the packages into dist - if grunt isn't working you probably need to run `npm install -g grunt-cli` first
-* use gulp to distribute to the local 2sxc dev environment
+* copy manually to the local 2sxc dev environment (automation w/gulp is broken)
 
 ## Background
 
